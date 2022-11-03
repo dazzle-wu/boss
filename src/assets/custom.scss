@@ -1,0 +1,35 @@
+/* 改变主题色变量 */
+$--color-primary: #009B72;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+.el-button.block{
+  width: 100%;
+}
+.el-radio__inner{border: 1px solid darkgreen;}
+.el-input__inner{padding: 0 5px;}
+.el-textarea__inner{padding: 5px;}
+.el-input__inner:focus{border-color: #009b72;}
+.el-dropdown-menu__item {min-width: 100px;}
+.el-loading-spinner{top:40px;}
+#topnav .navigation-menu > li > a.active {
+  color: #ffffff;
+}
+.fa-angle-down.h3{margin: 0;width: 28px;}
+.tagline .topbar-list {
+  .btn {
+    padding: 5px 10px;
+  }
+  .dropdown-menu a {
+    color: #333;
+    line-height: 22px;
+    text-align: left;
+  }
+  .dropdown-item {
+    padding: 3px;
+    width: auto;
+  }
+}
